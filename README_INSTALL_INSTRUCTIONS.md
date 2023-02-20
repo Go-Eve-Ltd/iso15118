@@ -3,7 +3,7 @@ ISO 15118 Installation Instructions
 Note, this will work on any Linux that’s running Debian 11. That gives you python 3.9 out of the box and the possibility of openjdk 17. 
 Any earlier Debian or any earlier derivative of Debian (Ubuntu, Mint, etc) will eventually work, but it’s a lot of work. Ubuntu 22 should work fine, or the latest Mint. 
 
-This whole process takes a couple of hours. This includes some steps that aren't included in the base install instructions. 
+This whole process takes up to a couple of hours on a Pi. Faster connection, faster machine, a lot less. This includes some steps that aren't included in the base install instructions. 
 
 In the end it will NOT run properly on anything very low power like a Beagle Bone Black or an Olimex. Pi4 is fine. Rock 4 is fine. Any “normal” Linux box or Virtual Box will be fine. 
 
