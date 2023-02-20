@@ -7,8 +7,9 @@ This whole process takes up to a couple of hours on a Pi. Faster connection, fas
 
 In the end it will NOT run properly on anything very low power like a Beagle Bone Black or an Olimex. Pi4 is fine. Rock 4 is fine. Any “normal” Linux box or Virtual Box will be fine. 
 
-**1. Install appropriate Armbian/Debian/Raspbian
-**  
+1. Install appropriate Armbian/Debian/Raspbian
+
+
   a. Finish install. Reboot.
   
   b. Log in as root (root, 1234 on Armbian),
@@ -29,26 +30,28 @@ In the end it will NOT run properly on anything very low power like a Beagle Bon
 
 
 
-**2. Install pip and python dev and gcc
-**
+2. Install pip and python dev and gcc
+
+
   a.	sudo apt install python3-pip
 
   b.	sudo apt-get install gcc python3-dev
 
 
-**3. Install Poetry
-**  
+3. Install Poetry
+
   a.	curl -sSL https://install.python-poetry.org | python3 –
 
 
-**4. Install make
-**
+4. Install make
+
   a.	sudo apt install make
 
 
 
-**5. Download ISO 15118 library
-**
+5. Download ISO 15118 library
+
+
   a.	wget https://github.com/SwitchEV/iso15118/archive/refs/heads/master.zip
   
   b.	sudo apt install unzip
@@ -62,8 +65,7 @@ In the end it will NOT run properly on anything very low power like a Beagle Bon
   f.	For the .env file, don’t change any parameters, just make the .env file from the .env.dev.local and save as .env (use nano)
 
 
-**6. Run install instructions
-**
+6. Run install instructions
 
-**7. Run
-**
+
+7. Run
