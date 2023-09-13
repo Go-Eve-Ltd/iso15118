@@ -40,7 +40,7 @@ In the end it will NOT run properly on anything very low power like a Beagle Bon
 
 3. Install Poetry
 
-  a.	curl -sSL https://install.python-poetry.org | python3 –
+  a.	curl -sSL https://install.python-poetry.org | python3 
 
 
 4. Install make
